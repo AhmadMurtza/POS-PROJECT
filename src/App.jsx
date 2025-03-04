@@ -1,16 +1,11 @@
-import { useState } from 'react'
-
-import './App.css'
-import Table from './Component/Table'
+import Tabs from "./Component/Tabs";
 
 function App() {
-
-
   return (
-    <>
-     <Table/>
-    </>
-  )
+    <div className=" mx-auto mt-10 border border-red-600">
+      <Tabs />
+    </div>
+  );
 }
 
-export default App
+export default App;
